@@ -34,7 +34,7 @@ header{
     height: 50%;
 }
 .presentacion{
-    font-size: 0.9rem;
+    font-size: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,7 +94,7 @@ header{
 .tech-list{
     display: flex;
     justify-content: space-between;
-    padding-top: 10px;
+    padding: ;
 }
 
 .tech{
@@ -209,12 +209,18 @@ footer{
     }
     .caja-cara {
         width: 100%;
-        height: 30%;
+        height: 45%;
     }
     .h3-welcome{
         font-size: 1rem;
     }
     .presentacion {
         font-size: 0.7rem;
-}
+    }
+        .red-social {
+            height: 3rem;
+            background-color: none;
+            border-radius: 15px;
+        }
+
 }
