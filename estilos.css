@@ -10,6 +10,10 @@ header{
     align-items: center;
     padding-left: 25px;
 }
+.navbar{
+    font-size: 1rem;
+
+}
 .cara{
     border-radius: 500px;
     height: 200px;
