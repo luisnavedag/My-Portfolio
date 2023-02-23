@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
 body{
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 header{
     height: 65px;
@@ -11,7 +13,7 @@ header{
     padding-left: 25px;
 }
 .navbar{
-    font-size: 1rem;
+    font-size: 1.5rem;
 
 }
 .cara{
@@ -23,11 +25,14 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: calc(100vh - 120px);
+    height: 100vh;
     background-color: #2d18a1f6;
     color: white;
     /* padding-top: 10%; */
 }
+
+
+
 .caja-central{
     margin-top: 10%;
     width: 50%;
@@ -37,6 +42,9 @@ header{
     overflow: hidden;
     height: 50%;
 }
+
+
+
 .presentacion{
     font-size: 1rem;
     display: flex;
@@ -52,6 +60,8 @@ header{
     width: 40%;
     background-color: black;
 }
+
+
 .caja-presentacion{
     display: flex;
     justify-content: center;
@@ -70,10 +80,7 @@ header{
     padding: 1.5rem;
 }
 
-.node{
-    width: 8rem;
-    height: 3rem;
-}
+
  .img-proyect{
     width: 100%;
     height: 40%;
@@ -98,11 +105,16 @@ header{
 .tech-list{
     display: flex;
     justify-content: space-between;
-    padding: ;
 }
 
 .tech{
-    height: 90px;
+    height: 9rem;
+    width: 9rem;
+
+}
+
+.tech:hover{
+   opacity: 0.8;
 }
 
 .tres{
@@ -138,10 +150,19 @@ header{
     color: white;
 }
 
+.card:hover{
+    opacity: 0.8;
+    
+}
+
 .red-social{
     height: 80px;
     background-color: none;
     border-radius: 15px;
+}
+
+.red-social:hover{
+    opacity: 0.6;
 }
 
 footer{
@@ -221,10 +242,14 @@ footer{
     .presentacion {
         font-size: 0.7rem;
     }
-        .red-social {
+    .red-social {
             height: 3rem;
             background-color: none;
             border-radius: 15px;
-        }
+    }
+    .tech{
+        height: 4rem;
+        width: 4rem;
+    }
 
 }
